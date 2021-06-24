@@ -7,8 +7,10 @@ location = "Miami"
 
 print("You are " + str(age) + " years old and live in " + location)
 
+print()
+print("This is your very first commit change to github, congrats!")
 
-def big_numbers(num, exponent):
+# def big_numbers(num, exponent):
     return num ** exponent
 
 # with open('readThis.txt') as text_file:
@@ -20,5 +22,5 @@ def big_numbers(num, exponent):
 #    for line in textf.readlines():
 #        print(line)
 
-with open('newFile.txt', 'a') as writeThis:
-    writeThis.write("\nWill this create a new file inside TestFolder?")
+# with open('newFile.txt', 'a') as writeThis:
+    # writeThis.write("\nWill this create a new file inside TestFolder?")
